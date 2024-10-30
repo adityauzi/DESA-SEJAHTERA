@@ -1,4 +1,3 @@
-
 body {
     font-family: Arial, sans-serif;
     background-color: #f4f4f4;
@@ -11,7 +10,7 @@ h1 {
 }
 
 .footer {
-    background-color: #808080; /* Warna abu-abu */
+    background-color: #808080;
     color: black;
     padding: 10px;
     text-align: center;
@@ -32,7 +31,7 @@ html, body {
 /* Navbar agar memenuhi lebar layar */
 .navbar {
     padding: 10px;
-    background-color: #808080; /* Set background color to gray */
+    background-color: darkgreen; /* Set background color to gray */
     color: white;
     width: 100vw;
     box-sizing: border-box;
@@ -43,7 +42,7 @@ html, body {
 
 .navbar a {
     text-decoration: none;
-    color: white;              /* Mengubah warna link menjadi putih */
+    color: black;              /* Mengubah warna link menjadi putih */
     padding: 10px 15px;        /* Memberikan padding agar ada ruang di sekeliling link */
     display: inline-block;     /* Mengubah link menjadi inline-block */
 }
@@ -80,4 +79,8 @@ img {
 }
 .back-link:hover {
     text-decoration: underline; /* Garis bawah saat hover */
+}
+
+p {
+    text-indent : 50px;
 }

@@ -5,20 +5,71 @@
     <title>Biodata Kelompok</title>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Contoh Penggunaan CSS Eksternal</title>
     <link rel="stylesheet" href="style.css">
+    <style>
+        h1 {
+            color : darkgreen;
+        }
+        p {
+            text-align: center;
+            color : rgb(0, 0, 0)
+        }
+        footer {
+            position: fixed;
+        }
+        body {
+            text-align: center;
+            background-color : rgb(250, 255, 255)
+        }
+        div {
+            color: rgb(0, 0, 0)
+        }
+        table {
+            border-collapse : collapse;
+            width : 50%;
+            margin : 20px auto; 
+        }
+        th, td {
+            border : 1px solid black; 
+            padding : 8px;
+            text-align : center;
+        }
+        th {
+            background-color : #f2f2f2;
+        }
+        .container {
+            text-align: center;
+        }
+    </style>
 </head>
-<body> 
-    
-    <p center>Kelompok 4</p>
-    <p>Anggota Kelompok :</p>
-    <ul>Rafii Rahmadiansyah</ul>
-    <ul>Desi Widyawati</ul>
-    <ul>Muhamad Aditya Rizqi Fauzi</ul>
-    <ul>Heni Zulia Cahyani</ul>
-    <ul>Abdul Aziz Habibulloh</ul>
-</body>
-<body>Untuk kembali ke beranda bisa klik di sini <a href = index.html>Beranda Desa Sejahtera</a>
+<body>
+    <div class="container">
+        <table>
+            <h1 center>Kelompok 4</h1>
+            <p>Anggota Kelompok :</p>
+            <tr>
+                <th>Nama</th>
+            </tr>
+            <tr>
+                <td>Rafii Rahmadiansyah<img src= "23104410052.jpg"></td>
+            </tr>
+            <tr>
+                <td>Desi Widyawati</td>
+            </tr>
+            <tr>
+                <td>Muhamad Aditya Rizqi Fauzi</td>
+            </tr>
+            <tr>
+                <td>Heni Zulia Cahyani</td>
+            </tr>
+            <tr>
+                <td>Abdul Aziz Habibulloh</td>
+            </tr>
+        </table>
+    </div>
+<p class="home-link">
+    Untuk kembali ke beranda bisa klik di sini <a href = index.html style="color: rgb(0, 0, 0);">Beranda Desa Sejahtera
+</p>
      <footer>
         <p class="footer">© 2024 Desa Sejahtera - Semua Hak Dilindungi</p>
     </footer>
