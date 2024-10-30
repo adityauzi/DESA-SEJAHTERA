@@ -1,0 +1,83 @@
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+h1 {
+    color: #b8b8b8;
+    text-align: center;
+}
+
+.footer {
+    background-color: #808080; /* Warna abu-abu */
+    color: black;
+    padding: 10px;
+    text-align: center;
+    font-size: 14px;
+    font-family: Arial, sans-serif;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    
+  }
+/* Atur html dan body agar tidak ada margin default */
+html, body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Navbar agar memenuhi lebar layar */
+.navbar {
+    padding: 10px;
+    background-color: #808080; /* Set background color to gray */
+    color: white;
+    width: 100vw;
+    box-sizing: border-box;
+    margin-bottom: 20px;
+    display: flex;            /* Menggunakan flex untuk mengatur link */
+    justify-content: center;   /* Mengatur link ke tengah */
+}
+
+.navbar a {
+    text-decoration: none;
+    color: white;              /* Mengubah warna link menjadi putih */
+    padding: 10px 15px;        /* Memberikan padding agar ada ruang di sekeliling link */
+    display: inline-block;     /* Mengubah link menjadi inline-block */
+}
+
+/* Style untuk div di atas gambar */
+
+
+figure {
+    display: block;
+    text-align: center;
+    margin: 0 auto;
+    width: 60%;
+}
+
+figcaption {
+    font-style: italic;
+    font-size: 14px;
+    color: #555;
+    margin-top: 5px;
+}
+
+img {
+    display: block;
+    margin: 0 auto;
+}
+
+.back-link {
+    position: absolute; /* Memungkinkan untuk menempatkan di kiri atas */
+    top: 20px; /* Jarak dari atas */
+    left: 20px; /* Jarak dari kiri */
+    color: blue; /* Warna link */
+    text-decoration: none; /* Menghilangkan garis bawah */
+    font-size: 18px; /* Ukuran font link */
+}
+.back-link:hover {
+    text-decoration: underline; /* Garis bawah saat hover */
+}
