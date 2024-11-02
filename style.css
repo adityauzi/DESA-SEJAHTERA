@@ -31,7 +31,7 @@ html, body {
 /* Navbar agar memenuhi lebar layar */
 .navbar {
     padding: 10px;
-    background-color: darkgreen; /* Set background color to gray */
+    background-color: darkgreen; /* Set warna background menjadi hijau tua */
     color: white;
     width: 100vw;
     box-sizing: border-box;
@@ -42,7 +42,7 @@ html, body {
 
 .navbar a {
     text-decoration: none;
-    color: black;              /* Mengubah warna link menjadi putih */
+    color: black;              /* Mengubah warna link menjadi hitam */
     padding: 10px 15px;        /* Memberikan padding agar ada ruang di sekeliling link */
     display: inline-block;     /* Mengubah link menjadi inline-block */
 }

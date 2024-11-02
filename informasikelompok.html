@@ -7,38 +7,52 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
     <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f4;
+        }
         h1 {
             color : darkgreen;
         }
-        p {
+        h2 {
             text-align: center;
-            color : rgb(0, 0, 0)
-        }
-        footer {
-            position: fixed;
-        }
-        body {
-            text-align: center;
-            background-color : rgb(250, 255, 255)
-        }
-        div {
-            color: rgb(0, 0, 0)
+            color: darkgreen;
         }
         table {
-            border-collapse : collapse;
-            width : 50%;
-            margin : 20px auto; 
-        }
-        th, td {
-            border : 1px solid black; 
-            padding : 8px;
-            text-align : center;
+            width: 80%;
+            margin: 0 auto;
+            border-collapse: collapse;
+            background-color: #e3f2fd;
         }
         th {
-            background-color : #f2f2f2;
-        }
-        .container {
+            background-color: darkgreen;
+            color: white;
+            padding: 10px;
             text-align: center;
+            font-size: 18px;
+        }
+        td {
+            padding: 15px;
+            vertical-align: top;
+            border-top: 1px solid #ddd;
+        }
+        th, td {
+            border: 2px solid black;
+            padding: 15px;
+        }
+        .photo {
+            text-align: center;
+        }
+        .photo img {
+            width: 120px;
+            height: auto;
+            border-radius: 5px;
+        }
+        .biodata {
+            font-size: 16px;
+        }
+        .biodata b {
+            font-weight: bold;
         }
     </style>
 </head>
@@ -46,32 +60,75 @@
     <div class="container">
         <table>
             <h1 center>Kelompok 4</h1>
-            <p>Anggota Kelompok :</p>
+            <p style="text-indent: 850px"><strong>Biodata Anggota Kelompok :</strong></p>
             <tr>
-                <th>Nama</th>
+                <th>Foto</th>
+                <th>Biodata</th>
             </tr>
             <tr>
-                <td>Rafii Rahmadiansyah<img src= "23104410052.jpg"></td>
+                <td><img src= "RAFII.jpg" width="120"></td>
+                <td>
+                    <strong>NAMA: </strong>Rafii Rahmadiansyah<br>
+                    <strong>NIM: </strong>23104410052<br>
+                    <strong>TTL: </strong>Blitar, 22 Desember 2004<br>
+                    <strong>ALAMAT: </strong>Kota Blitar, Sananwetan, Jl. Madura<br>
+                    <strong>MOTTO: </strong> Joining together at last
+                </td>
             </tr>
             <tr>
-                <td>Desi Widyawati</td>
+                <td><img src="DESI.JPG" width="120"></td>
+                <td>
+                    <strong>NAMA: </strong>Desi Widyawati<br>
+                    <strong>NIM: </strong>23104410090<br>
+                    <strong>TTL: </strong>Blitar, 30 Agustus 2005<br>
+                    <strong>ALAMAT: </strong>Ds. Slumbung, Kec. Gandusari, Kab. Blitar<br>
+                    <strong>MOTTO: </strong>Jangan pernah menyerah pada mimpimu<br>
+                </td>
             </tr>
             <tr>
-                <td>Muhamad Aditya Rizqi Fauzi<img src= "23104410079.jpg"></td>
+                <td><img src= "ADIT.jpg" width="120"></td>
+                <td>
+                    <strong>NAMA: </strong>Muhamad Aditya Rizqi Fauzi<br>
+                    <strong>NIM: </strong>23104410079<br>
+                    <strong>TTL: </strong>Blitar, 5 September 2004<br>
+                    <strong>ALAMAT: </strong> Dsn Pundensari, Kec. Talun, Blitar<br>
+                    <strong>MOTTO: </strong>Jadilah dirimu sendiri<br>
+                </td>
             </tr>
             <tr>
-                <td>Heni Zulia Cahyani</td>
+                <td><img src="HENI.jpg" width="120"></td>
+                <td>
+                    <strong>NAMA: </strong>Heni Zulia Cahyani<br>
+                    <strong>NIM: </strong>23104410092<br>
+                    <strong>TTL: </strong> Kediri, 9 April 2005<br>
+                    <strong>ALAMAT: </strong> Desa Manggis, Dsn Sumber Urip, Kec. Ngancar, Kab Kediri<br>
+                    <strong>MOTTO: </strong> UNK
+                </td>
             </tr>
             <tr>
-                <td>Abdul Aziz Habibulloh</td>
+                <td><img src="AZIZ.jpg" width="120"></td>
+                <td>
+                    <strong>NAMA: </strong>Abdul Aziz Habibulloh<br>
+                    <strong>NIM: </strong>23104410051<br>
+                    <strong>TTL: </strong>Blitar, 22 Mei 2004<br>
+                    <strong>ALAMAT: </strong>Dsn. Tritihrejo, Ds. Tumpang, Kec. Talun, Kab. Blitar<br>
+                    <strong>MOTTO: </strong>Kalau orang lain bisa kenapa harus saya<br>
+                </td>
             </tr>
+            <tr>
+                <td><img src="INEZ.jpg" width="120"></td>
+                <td>
+                    <strong>NAMA: </strong>Rahmadian Pinasti<br>
+                    <strong>NIM: </strong>23104410060<br>
+                    <strong>TTL: </strong>Blitar, 16 Oktober 2004<br>
+                    <strong>ALAMAT: </strong>Centong Sawentar, Kanigoro, Blitar<br>
+                    <strong>MOTTO: </strong>Kegagalan terjadi karena terlalu banyak berencana tapi sedikit berpikir<br>
+                </td>
+            </tr>            
         </table>
     </div>
 <p class="home-link">
     Untuk kembali ke beranda bisa klik di sini <a href = index.html style="color: rgb(0, 0, 0);">Beranda Desa Sejahtera
 </p>
-     <footer>
-        <p class="footer">© 2024 Desa Sejahtera - Semua Hak Dilindungi</p>
-    </footer>
 </body>
 </html>
