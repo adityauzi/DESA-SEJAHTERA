@@ -5,13 +5,15 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Visi Dan Misi</title><link rel="stylesheet" href="style.css">
     <style>
-        body {
+        html, body {
             font-family: Arial, sans-serif;
+            width: 100%;
+            height: 100%;
             background-color: #f9f9f9;
             color: #333;
-            max-width: 600px;
-            margin: auto; 
-            padding: 20px;
+            margin: 0; 
+            padding: 0px;
+            overflow-x:hidden;
         }
         h1 {
             color: darkgreen;
@@ -25,15 +27,56 @@
             font-size: 18px;
             text-indent: 50px;
         }
-        .navbar a {
+        nav {
+            background: linear-gradient(to right, #4CAF50, #2E7D32);
+            color: white;
+            display: flex;
+            align-items: center;
+            flex-wrap: wrap;
+            justify-content: space-between;
+            padding: 10px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+            font-family: 'Arial', sans-serif;
+            position: relative;
+            z-index: 10;
+        }
+        
+        nav a {
+            color: white;
             text-decoration: none;
-            color: darkgreen;
-            margin-right: 15px;
+            padding: 10px 20px;
+            transition: background-color 0.3s, color 0.3s;
+        }
+        
+        nav a:hover {
+            background-color: rgba(255, 255, 255, 0.2);
+            border-radius: 5px;
+        }
+        
+        @media (max-width: 768px) {
+            nav {
+                flex-direction: column;
+                align-items: center;
+            }
+            nav a {
+                margin: 5px 0;
+                padding: 8px 10px;
+            }
         }
     </style>
 </head>
 <body>
-    <h1 style = "text-align: center;">Visi dan Misi Desa Sejahtera</h1>
+    <div class="navbar">
+        <a href="index.html">Beranda</a>
+        <a href="profil.html">Profil Desa</a>
+        <a href="visi_misi.html">Visi & Misi</a>
+        <a href="layanan.html">Layanan Desa</a>
+        <a href="layanan_resmi.html">Layanan Desa Resmi</a>
+        <a href="formulir.html">Formulir Keperluan Desa</a>
+        <a href="tantangan.html">Tantangan</a>
+        <a href="informasikelompok.html">Biodata Kelompok</a>
+    </div>
+    <h1>Visi dan Misi Desa Sejahtera</h1>
 
     <h2>Visi</h2>
     <p>Menjadikan Desa Sejahtera sebagai desa mandiri, adil, dan makmur dengan menjaga kelestarian alam serta meningkatkan kesejahteraan masyarakat melalui pemberdayaan ekonomi lokal dan pengelolaan sumber daya yang berkelanjutan.</p>

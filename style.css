@@ -45,6 +45,11 @@ html, body {
     color: black;              /* Mengubah warna link menjadi hitam */
     padding: 10px 15px;        /* Memberikan padding agar ada ruang di sekeliling link */
     display: inline-block;     /* Mengubah link menjadi inline-block */
+    border-radius: 5px;
+    transition: background-color 0.3s;
+}
+.navbar a:hover {
+    background-color: #4CAF50;
 }
 
 /* Style untuk div di atas gambar */
